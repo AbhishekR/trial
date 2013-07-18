@@ -8,7 +8,7 @@
 
 git clone git://github.com/openstack-dev/devstack.git
 #install openstack
-~/devstack/stack.sh
+~trial/devstack/stack.sh
 #copy all9s recovery module to openstack
 cp -r ~/trial/recovery /opt/stack/horizon/openstack_dashboard/dashboards/project
 #replacing the dashboard
