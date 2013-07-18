@@ -1,3 +1,0 @@
-
-class Awesome(TemplateView):
-    template_name = 'project/awesome/index.html'
