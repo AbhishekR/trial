@@ -5,7 +5,7 @@
 #sudo adduser `id -un` libvirtd
 #sudo apt-get install virt-manager
 #clone devstack 
-git clone git://github.com/openstack-dev/devstack.git
+~/git clone git://github.com/openstack-dev/devstack.git
 #install openstack
 ~/devstack ./stack.sh
 #copy all9s recovery module to openstack
