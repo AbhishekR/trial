@@ -7,6 +7,8 @@
 #clone devstack 
 
 git clone git://github.com/openstack-dev/devstack.git
+#copy localrc file
+cp ~/trial/localrc ~/trial/devstack/localrc
 #install openstack
 ~/devstack/stack.sh
 #copy all9s recovery module to openstack

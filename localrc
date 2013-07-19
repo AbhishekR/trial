@@ -1,0 +1,20 @@
+DATABASE_PASSWORD=password
+RABBIT_PASSWORD=password
+SERVICE_TOKEN=password
+SERVICE_PASSWORD=password
+ADMIN_PASSWORD=password
+
+LOGFILE=/opt/stack/stack.sh.log
+SCREEN_LOGDIR=/opt/stack/logs/screen
+LOGDAYS=1
+
+disable_service n-net
+enable_service q-svc
+enable_service q-agt
+enable_service q-dhcp
+enable_service q-l3
+enable_service q-meta
+enable_service quantum
+
+enable_service swift
+SWIFT_HASH=password
