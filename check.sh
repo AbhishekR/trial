@@ -16,7 +16,7 @@ cp -r ~/trial/recovery /opt/stack/horizon/openstack_dashboard/dashboards/project
 #replacing the dashboard
 rm /opt/stack/horizon/openstack_dashboard/dashboards/project/dashboard.py
 rm /opt/stack/horizon/openstack_dashboard/static/dashboard/img/logo.png
-rm /opt/stack/horizon/openstack_dashboard/static/dashboard/img/logo-splash.pn
+rm /opt/stack/horizon/openstack_dashboard/static/dashboard/img/logo-splash.png
 cp ~/trial/logo.png /opt/stack/horizon/openstack_dashboard/static/dashboard//img/logo.png
 cp ~/trial/logo.png /opt/stack/horizon/openstack_dashboard/static/dashboard/img/logo-splash.png
 cp ~/dashboard.py /opt/stack/horizon/openstack_dashboard/dashboards/project
