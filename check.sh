@@ -19,7 +19,7 @@ rm /opt/stack/horizon/openstack_dashboard/static/dashboard/img/logo.png
 rm /opt/stack/horizon/openstack_dashboard/static/dashboard/img/logo-splash.png
 cp ~/trial/logo.png /opt/stack/horizon/openstack_dashboard/static/dashboard//img/logo.png
 cp ~/trial/logo.png /opt/stack/horizon/openstack_dashboard/static/dashboard/img/logo-splash.png
-cp ~/dashboard.py /opt/stack/horizon/openstack_dashboard/dashboards/project
+cp ~/trial/dashboard.py /opt/stack/horizon/openstack_dashboard/dashboards/project
 # restart the apache server
 sudo service apache2 restart
 
